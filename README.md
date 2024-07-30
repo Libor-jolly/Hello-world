@@ -195,6 +195,62 @@ __________
 -for example:
 - [![沙漠中的岩石图片](/assets/img/shiprock.jpg "Shiprock")](https://markdown.com.cn)
 
+# Markdown 转义字符语法
+要显示原本用于格式化 Markdown 文档的字符，请在**字符前面添加反斜杠字符** \
+
+- * Without the backslash, this would be a bullet in an unordered list.
+- \* Without the backslash, this would be a bullet in an unordered list.
+
+## 特殊字符自动转义
+在 HTML 文件中，有两个字符需要特殊处理： < 和 & 。 < 符号用于起始标签，& 符号则用于标记 HTML 实体，如果你只是想要使用这些符号，你必须要使用实体的形式，像是 &lt; 和 &amp;。
+
+**&符号**其实很容易让写作网页文件的人感到困扰，如果你要打「AT&T」 ，你必须要**写成「AT&amp;T」** ，还得转换网址内的 & 符号，如果你要链接到：
+
+- http://images.google.com/images?num=30&q=larry+bird
+- 你必须要把网址转成：
+
+- http://images.google.com/images?num=30&amp;q=larry+bird
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
